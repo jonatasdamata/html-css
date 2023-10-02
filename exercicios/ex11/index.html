@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferenttes ou simplesmente aumente e diminui o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo aúdios</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5. </p>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/e-licao-3-listen-and-write.mp3" type="audio/mpeg"  >
+
+    </audio>
+    
+</body>
+</html> 
